@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1400" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151B20"/>
+      <stop offset="60%" stop-color="#101418"/>
+      <stop offset="100%" stop-color="#0B0F12"/>
+    </linearGradient>
+    <linearGradient id="slash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#8B1E27"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1400" fill="url(#bg)"/>
+  <rect x="28" y="28" width="944" height="1344" rx="56" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="8"/>
+  <rect x="60" y="120" width="880" height="12" rx="6" fill="url(#slash)"/>
+  <g opacity="0.25">
+    <path d="M80 260 L520 120 L560 180 L120 320 Z" fill="#E63946" opacity="0.45"/>
+    <path d="M440 260 L920 120 L960 180 L480 320 Z" fill="#34FF5A" opacity="0.25"/>
+  </g>
+  <g opacity="0.12" stroke="#FFFFFF" stroke-width="2">
+    <path d="M120 420 L880 420"/>
+    <path d="M120 480 L880 480"/>
+    <path d="M120 540 L880 540"/>
+  </g>
+  <path d="M70 1040 L930 1040 L880 1320 L120 1320 Z" fill="#0F1418" stroke="#E63946" stroke-width="4"/>
+  <path d="M120 1120 L880 1120" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="4"/>
+</svg>
