@@ -30,3 +30,4 @@ Open `http://localhost:3000` for the home page and `http://localhost:3000/builde
 ## Notes
 - The first background removal run downloads the model; expect a delay.
 - COOP/COEP headers are set in `next.config.ts` for best WASM performance.
+# Flexcards
